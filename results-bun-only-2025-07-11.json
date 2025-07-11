@@ -1,0 +1,101 @@
+[
+  {
+    "framework": "Verb",
+    "scenario": "Route Parameters",
+    "runtime": "Bun",
+    "requests": {
+      "total": 907852,
+      "average": 90778,
+      "mean": 90778,
+      "stddev": 1903,
+      "min": 85721,
+      "max": 92409
+    },
+    "latency": {
+      "average": 0.55,
+      "mean": 0.55,
+      "stddev": 0.57,
+      "min": 1,
+      "max": 18,
+      "p50": 1,
+      "p90": 1,
+      "p99": 2
+    },
+    "throughput": {
+      "average": 12528845,
+      "mean": 12528845,
+      "stddev": 262156,
+      "min": 11829498,
+      "max": 12752442
+    },
+    "errors": 0,
+    "timeouts": 0,
+    "duration": 10.02
+  },
+  {
+    "framework": "Express (Bun)",
+    "scenario": "Route Parameters",
+    "runtime": "Bun",
+    "requests": {
+      "total": 692800,
+      "average": 69280,
+      "mean": 69280,
+      "stddev": 1071,
+      "min": 66273,
+      "max": 70116
+    },
+    "latency": {
+      "average": 1.02,
+      "mean": 1.02,
+      "stddev": 0.41,
+      "min": 1,
+      "max": 22,
+      "p50": 1,
+      "p90": 1,
+      "p99": 2
+    },
+    "throughput": {
+      "average": 15102771,
+      "mean": 15102771,
+      "stddev": 233995,
+      "min": 14447514,
+      "max": 15285288
+    },
+    "errors": 0,
+    "timeouts": 0,
+    "duration": 10.01
+  },
+  {
+    "framework": "Fastify (Bun)",
+    "scenario": "Route Parameters",
+    "runtime": "Bun",
+    "requests": {
+      "total": 856184,
+      "average": 85626,
+      "mean": 85626,
+      "stddev": 2520,
+      "min": 78800,
+      "max": 87893
+    },
+    "latency": {
+      "average": 0.83,
+      "mean": 0.83,
+      "stddev": 0.49,
+      "min": 1,
+      "max": 18,
+      "p50": 1,
+      "p90": 1,
+      "p99": 2
+    },
+    "throughput": {
+      "average": 13099827,
+      "mean": 13099827,
+      "stddev": 387044,
+      "min": 12056400,
+      "max": 13447629
+    },
+    "errors": 0,
+    "timeouts": 0,
+    "duration": 10.01
+  }
+]

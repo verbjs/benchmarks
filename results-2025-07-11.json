@@ -1,0 +1,130 @@
+[
+  {
+    "framework": "Verb",
+    "scenario": "Simple \"Hello World\"",
+    "requests": {
+      "total": 929691,
+      "average": 92966,
+      "mean": 92966,
+      "stddev": 1471,
+      "min": 90460,
+      "max": 95495
+    },
+    "latency": {
+      "average": 0.49,
+      "mean": 0.49,
+      "stddev": 0.56,
+      "min": 1,
+      "max": 14,
+      "p50": 0,
+      "p90": 1,
+      "p99": 2
+    },
+    "throughput": {
+      "average": 10505421,
+      "mean": 10505421,
+      "stddev": 165894,
+      "min": 10221980,
+      "max": 10790935
+    },
+    "errors": 0,
+    "timeouts": 0,
+    "duration": 10.02
+  },
+  {
+    "framework": "Express",
+    "scenario": "Simple \"Hello World\"",
+    "requests": {
+      "total": 728512,
+      "average": 72845,
+      "mean": 72845,
+      "stddev": 1583,
+      "min": 69285,
+      "max": 74849
+    },
+    "latency": {
+      "average": 1,
+      "mean": 1,
+      "stddev": 0.43,
+      "min": 1,
+      "max": 24,
+      "p50": 1,
+      "p90": 1,
+      "p99": 2
+    },
+    "throughput": {
+      "average": 13915750,
+      "mean": 13915750,
+      "stddev": 304205,
+      "min": 13233435,
+      "max": 14296159
+    },
+    "errors": 0,
+    "timeouts": 0,
+    "duration": 10.01
+  },
+  {
+    "framework": "Fastify",
+    "scenario": "Simple \"Hello World\"",
+    "requests": {
+      "total": 899190,
+      "average": 89914,
+      "mean": 89914,
+      "stddev": 1733,
+      "min": 86127,
+      "max": 92244
+    },
+    "latency": {
+      "average": 0.57,
+      "mean": 0.57,
+      "stddev": 0.57,
+      "min": 1,
+      "max": 19,
+      "p50": 1,
+      "p90": 1,
+      "p99": 2
+    },
+    "throughput": {
+      "average": 11508941,
+      "mean": 11508941,
+      "stddev": 221857,
+      "min": 11024256,
+      "max": 11807232
+    },
+    "errors": 0,
+    "timeouts": 0,
+    "duration": 10.01
+  },
+  {
+    "framework": "Hono",
+    "scenario": "Simple \"Hello World\"",
+    "requests": {
+      "total": 790003,
+      "average": 79002,
+      "mean": 79002,
+      "stddev": 1097,
+      "min": 77553,
+      "max": 81112
+    },
+    "latency": {
+      "average": 0.96,
+      "mean": 0.96,
+      "stddev": 0.41,
+      "min": 1,
+      "max": 23,
+      "p50": 1,
+      "p90": 1,
+      "p99": 2
+    },
+    "throughput": {
+      "average": 10112205,
+      "mean": 10112205,
+      "stddev": 140437,
+      "min": 9926784,
+      "max": 10382336
+    },
+    "errors": 0,
+    "timeouts": 0,
+    "duration": 10.01
+  }
+]
