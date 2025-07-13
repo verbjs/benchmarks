@@ -1,6 +1,7 @@
 {
-  "name": "verb-benchmarks",
+  "name": "@verb/benchmarks",
   "version": "1.0.0",
+  "homepage": "https://verb.codes",
   "description": "Performance benchmarks comparing Verb against other frameworks",
   "type": "module",
   "scripts": {
