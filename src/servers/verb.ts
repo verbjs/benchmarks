@@ -1,8 +1,8 @@
-import { createServer, ServerProtocol } from 'verb';
+import { server } from 'verb';
 
 const port = parseInt(process.env.PORT || '3001');
 
-const app = createServer(ServerProtocol.HTTP);
+const app = server.http();
 
 // Simple route
 app.get('/', (req, res) => {
