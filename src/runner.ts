@@ -24,7 +24,8 @@ const frameworks: BenchmarkConfig[] = [
   { name: 'Hono (Node)', port: 3004, serverFile: 'src/servers/hono.ts' },
   { name: 'Express (Bun)', port: 3005, serverFile: 'src/servers/express-bun.ts' },
   { name: 'Fastify (Bun)', port: 3006, serverFile: 'src/servers/fastify-bun.ts' },
-  { name: 'Hono (Bun)', port: 3007, serverFile: 'src/servers/hono-bun.ts' }
+  { name: 'Hono (Bun)', port: 3007, serverFile: 'src/servers/hono-bun.ts' },
+  { name: 'Elysia', port: 3008, serverFile: 'src/servers/elysia.ts' }
 ];
 
 const scenarios: Record<string, BenchmarkScenario> = {

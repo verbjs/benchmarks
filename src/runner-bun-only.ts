@@ -20,9 +20,10 @@ interface BenchmarkScenario {
   headers?: Record<string, string>;
 }
 
-// Fair comparison: Stable frameworks on Bun runtime (Hono excluded due to stack overflow)
+// Fair comparison: Bun-native and Bun-compatible frameworks
 const bunFrameworks: BenchmarkConfig[] = [
   { name: 'Verb', port: 3001, serverFile: 'src/servers/verb.ts', runtime: 'bun' },
+  { name: 'Elysia', port: 3008, serverFile: 'src/servers/elysia.ts', runtime: 'bun' },
   { name: 'Express (Bun)', port: 3005, serverFile: 'src/servers/express-bun.ts', runtime: 'bun' },
   { name: 'Fastify (Bun)', port: 3006, serverFile: 'src/servers/fastify-bun.ts', runtime: 'bun' }
   // Note: Hono excluded - experiences Maximum call stack size exceeded errors under load on Bun
