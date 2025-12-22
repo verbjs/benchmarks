@@ -22,7 +22,7 @@
     "test": "bun test"
   },
   "dependencies": {
-    "verb": "github:verbjs/verb",
+    "verb": "^1.0.0",
     "elysia": "^1.2.0",
     "express": "^4.19.2",
     "fastify": "^4.26.2",
